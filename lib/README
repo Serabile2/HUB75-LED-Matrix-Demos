@@ -1,46 +1,22 @@
 
-This directory is intended for project specific (private) libraries.
-PlatformIO will compile them to static libraries and link into the executable file.
+Project Name: HUB75-LED-Matrix-Demos | ESP32/ESP8266 & P3-64x64
+Description:
+A PlatformIO project demonstrating core functionalities for driving a 64x64 HUB75 LED matrix (P3 panel). Key objectives:
 
-The source code of each library should be placed in a separate directory
-("lib/your_library_name/[Code]").
+🎮 HUB75 Protocol Implementation: Control LED matrices via the HUB75 communication bus for dynamic visual outputs.
 
-For example, see the structure of the following example libraries `Foo` and `Bar`:
+📁 SPIFFS Filesystem Integration: Store and render JPG images directly from SPIFFS storage (ideal for ESP32/ESP8266 projects).
 
-|--lib
-|  |
-|  |--Bar
-|  |  |--docs
-|  |  |--examples
-|  |  |--src
-|  |     |- Bar.c
-|  |     |- Bar.h
-|  |  |- library.json (optional. for custom build options, etc) https://docs.platformio.org/page/librarymanager/config.html
-|  |
-|  |--Foo
-|  |  |- Foo.c
-|  |  |- Foo.h
-|  |
-|  |- README --> THIS FILE
-|
-|- platformio.ini
-|--src
-   |- main.c
+🌀 Fractal Visualization: Render Mandelbrot set examples with real-time calculations, showcasing mathematical graphics on the LED matrix.
 
-Example contents of `src/main.c` using Foo and Bar:
-```
-#include <Foo.h>
-#include <Bar.h>
+Key Features:
+✅ HUB75 driver integration for LED matrix control
+✅ JPG image handling via SPIFFS storage
+✅ Mandelbrot fractal generation with customizable parameters
+✅ PlatformIO-ready structure for easy compilation/flashing
+✅ Example code and wiring diagrams
 
-int main (void)
-{
-  ...
-}
-
-```
-
-The PlatformIO Library Dependency Finder will find automatically dependent
-libraries by scanning project source files.
-
-More information about PlatformIO Library Dependency Finder
-- https://docs.platformio.org/page/librarymanager/ldf.html
+Bon inici del projecte "SEMÀFOR INTEL·LIGENT PER A LA GESTIÓ DEL SOROLL EN AULES"
+Espero que amb això es podrà començar a fer vía.
+Dídac P.C
+dperez@inspedralbes.cat
