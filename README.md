@@ -1,0 +1,22 @@
+### Project Name: HUB75-LED-Matrix-Demos | ESP32/ESP8266 & P3-64x64
+## Description:
+A PlatformIO project demonstrating core functionalities for driving a 64x64 HUB75 LED matrix (P3 panel). Key objectives:
+
+🎮 HUB75 Protocol Implementation: Control LED matrices via the HUB75 communication bus for dynamic visual outputs.
+
+📁 SPIFFS Filesystem Integration: Store and render JPG images directly from SPIFFS storage (ideal for ESP32/ESP8266 projects).
+
+🌀 Fractal Visualization: Render Mandelbrot set examples with real-time calculations, showcasing mathematical graphics on the LED matrix.
+
+Key Features:
+✅ HUB75 driver integration for LED matrix control
+✅ JPG image handling via SPIFFS storage
+✅ Mandelbrot fractal generation with customizable parameters
+✅ PlatformIO-ready structure for easy compilation/flashing
+✅ Example code and wiring diagrams
+
+
+Bon inici del projecte "SEMÀFOR INTEL·LIGENT PER A LA GESTIÓ DEL SOROLL EN AULES"
+Espero que amb això es podrà començar a fer vía.
+Dídac P.C
+dperez@inspedralbes.cat
